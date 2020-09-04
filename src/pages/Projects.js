@@ -5,6 +5,7 @@ import noteTaker from "../images/notetaker.png";
 import employeetracker from "../images/Employee Tracker.png";
 import team from "../images/team-hw10.png";
 import weather from "../images/Weather Dashboard.png";
+import project3 from "../images/project3.png";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -196,6 +197,43 @@ function Projects() {
                   <Button
                     variant="primary"
                     href="https://github.com/SheriR/Weather-Dashboard"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col xs={6} md={4}>
+              <Card
+                style={{ width: "22rem", marginBottom: "1rem" }}
+                className="projectCards"
+              >
+                <Card.Img
+                  variant="top"
+                  className="projectpics"
+                  src={project3}
+                />
+                <Card.Body>
+                  <Card.Title>Centaur Trading Game</Card.Title>
+                  <Card.Text>
+                    A website designed for gamers to buy, sell and trade games.
+                  </Card.Text>
+                  <Button
+                    className="liveBtn"
+                    style={{ margin: "1rem" }}
+                    variant="primary"
+                    href="https://video-game-trader-052020.herokuapp.com/"
+                    target="_blank"
+                  >
+                    App
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://github.com/tboyd4/video-game-trader"
                     target="_blank"
                   >
                     GitHub

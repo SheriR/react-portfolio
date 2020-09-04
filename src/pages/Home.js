@@ -7,24 +7,13 @@ function Home() {
   return (
     <Jumbotron style={{ marginBottom: "0" }}>
       <h1>Sheri Rhoades</h1>
-      <h2 className="text-secondary">
-        I am attending KU Bootcamp working to become a full stack programer
-      </h2>
+      <h4 className="text-secondary">
+        Hi! I am a KU Full-Stack Coding Bootcamp graduate seeking new
+        opportunities to learn and grow as a developer.
+      </h4>
       <container>
         <row>
           <Image src={Sheri2} style={{ width: "18rem" }} />
-        </row>
-
-        <row>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
         </row>
       </container>
     </Jumbotron>
